@@ -1,0 +1,206 @@
+%!TEX TS-program = xelatex
+\documentclass[]{friggeri-cv}
+\usepackage{afterpage}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{smartdiagram}
+\usepackage{fontspec}
+\usepackage{metalogo}
+\usepackage{dtklogos}
+\usepackage[utf8]{inputenc}
+\usepackage[export]{adjustbox} %To place images
+\usepackage{tikz}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=false,           % no lik border color
+    allbordercolors=white       % white border color for all
+}
+\RequirePackage{xcolor}
+\definecolor{pblue}{HTML}{0395DE}
+
+\begin{document}
+\header{Maren }{Eidal}
+      {Curriculum Vitae}
+      
+% Fake text to add separator      
+\fcolorbox{white}{gray}{\parbox{\dimexpr\textwidth-2\fboxsep-2\fboxrule}{%
+.....
+}}
+
+% In the aside, each new line forces a line break
+\begin{aside}
+  \includegraphics[scale= 0.46, left]{img/circular_cv_photo.png}
+  \section{Født}
+    23/05/1992
+    ~
+  \section{Adresse}
+    Gabels Gate 47B
+    0262 Oslo
+    ~
+  \section{Tel}
+    +47 48 36 02 02
+    ~
+  \section{Mail}
+    \href{mailto:mareneidal@gmail.com}{\textbf{mareneidal@}\\gmail.com}
+  \section{Språk}
+    \textbf{Norsk}\includegraphics[scale=0.40]{img/5stars.png}
+    \textbf{Engelsk}\includegraphics[scale=0.40]{img/5stars.png}
+    ~
+  \section{Programmering}
+       C/C++
+       MATLAB og Simulink
+       HTML/CSS3/JavaScript
+       Java
+    ~
+  \section{Egenskaper}
+    Allsidig
+    Arbeidsom
+    Fleksibel
+    ~
+  \section{Meritter}
+    Vinner av Innovasjonsprisen under Your Extreme 2017 
+\end{aside}
+~
+\vspace{5mm}
+\section{Erfaring}
+\begin{entrylist}
+  \entry
+    {08/18 - d.d}
+    {Technical Tester}
+    {Sopra Steria}
+    {}
+  \entry
+    {01/18 - 06/18}
+    {Studentassistent i TMR4160 Datametoder for \\ingeniørtekniske anvendelser}
+    {NTNU}
+    {}
+  \entry
+    {08/16 - 06/18}
+    {Studentassistent i TMA4130 Matte 4N}
+    {NTNU}
+    {}
+   \entry
+    {06/17 - 08/17}
+    {DNV GL Sommerprosjektet 2017}
+    {DNV GL \vspace{1.5mm}}
+    {%Jobbet i et tverrfaglig team på ni stykker, med formål å forbedre transport og logistikk innen akvakultur
+    }
+  \entry
+    {08/15 - 12/15}
+    {Studentassistent i TMA4240 Statistikk}
+    {NTNU}
+    {}
+    \entry
+    {06/13 - 08/16}
+    {Sommervikar hos Madla Hjemmesykepleie}
+    {Stavanger Kommune}
+    {}
+    \entry
+    {08/12 - 12/12}
+    {Restaurantmedarbeider}
+    {Peppes Pizza}
+    {}
+    \entry
+    {07/12 - 08/12}
+    {Sollien Bofellesskap}
+    {Bergen Kommune}
+    {}
+    \entry
+    {07/11 - 07/11}
+    {Sommervikar i sentralbordet}
+    {Roche Norge}
+    {}
+\end{entrylist}
+\\
+\section{Utdanning}
+\begin{entrylist}
+  \entry
+    {2013 - 2018}
+    {Master i Marin Teknikk - Marin Kybernetikk}
+    {NTNU}
+    {5-årig masterprogram, utveksling til Sør-Korea våren 2017\\
+    Emne til master: kollisjonsunngåelse og ruteplanlegging for autonome skip \vspace{3mm}}
+  \entry
+    {2011 - 2012}
+    {Friluftsliv}
+    {Nordfjord Folkehøgskole}
+    {}
+  \entry
+    {2010 - 2011}
+    {Studiespesialisering}
+    {American School of Paris}
+    {}
+\entry
+    {2008 - 2010}
+    {Studiespesialisering}
+    {Bergen Katedralskole}
+    {}
+\end{entrylist}
+
+\section{Sertifiseringer}
+\begin{entrylist}
+   \entry
+   {09/18}
+   {70-480: Programming in HTML5 with JavaScript and CSS3}
+   {}
+   {}
+   \entry
+   {01/19}
+   {ISTQB Foundation}
+   {}
+   {}
+\end{entrylist}
+
+\section{Verv}
+\begin{entrylist}
+   \entry
+    {05/16 - 10/16}
+    {Mellomleder i arrangementkomitéen}
+    {RUKA '16}
+    {}
+  \entry
+    {01/16 - 06/16}
+    {Sosiale Medier Ansvarlig}
+    {Ingeniører Uten Grenser}
+    {}
+\entry
+    {01/15 - 06/17}
+    {Instruktør}
+    {NTNUI Telemark Alpint}
+    {}
+  \entry
+    {04/15 - 11/15}
+    {Markedsføringsmedarbeider}
+    {UKA '15}
+    {}
+  \entry
+    {01/15 - 06/15}
+    {Servitør}
+    {Studentersamfundet}
+    {}
+\end{entrylist}
+
+\section{Referanser}
+\begin{minipage}{.45\linewidth}
+\begin{flushleft}                           
+\textbf{Liv Aune Hagen}\\
+Consultant, Shipping Advisory \\
+DNV GL Maritime\\
+\href{mailto:Liv.Aune.Hagen@dnvgl.com}{\textbf{Liv.Aune.Hagen@}dnvgl.com}
+\vspace{2mm}
+\end{flushleft} 
+\end{minipage}
+\hfill
+\begin{minipage}{.45\linewidth}
+\begin{flushright}                                  \textbf{Kristina Dahlberg} \\
+Senior Consultant, Employer Branding \\
+DNV GL - GSS HR Nordic Expert \\
+\href{mailto:Kristina.Dahlberg@dnvgl.com}{\textbf{Kristina.Dahlberg@}dnvgl.com}
+\end{flushright} 
+\end{minipage}
+
+\end{document}
